@@ -26,6 +26,7 @@ Recent studies (Figure 1) show that german has been trending language now for le
 
 ![Figure 1 Foreigners learning German source : Deutsch als Fremdsprache weltweit 2020, [Datenerhebung 2020](media_sources\deutsch-als-fremdsprache-data.pdf) ](./images/german_stats.png)<br />
 
+Figure 1 Foreigners learning German source : Deutsch als Fremdsprache weltweit 2020, [Datenerhebung 2020](media_sources\deutsch-als-fremdsprache-data.pdf)
 
 ## <a name="features"></a> Features
 
