@@ -24,7 +24,7 @@ In our examples, Target Language is German and Source Languages are English or a
 Recent studies (Figure 1) show that german has been trending language now for learning amongst foreigners. Having limited resources for learning, Bhasha aims to help these students. 
 
 
-![Figure 1 Foreigners learning German source : ](./images/german_stats.png)<br />
+![Figure 1 Foreigners learning German source : Deutsch als Fremdsprache weltweit 2020, [Datenerhebung 2020](media_sources\deutsch-als-fremdsprache-data.pdf) ](./images/german_stats.png)<br />
 
 
 ## <a name="features"></a> Features
