@@ -17,9 +17,9 @@ This repository contains source code, presentation decks and images related Bhas
 
 For learning any language, we may need to memorize words to improve our vocabulary. Bhasha attempts to help you address this problem. 
 
-Target Language is a language that user wants to learn. And Source Language(s) are languages, which a user employs to understand Target Language.
+Source Language is a language that user wants to learn. And Destination Language(s) are languages, which a user employs to understand Source Language.
 
-In our examples, Target Language is German and Source Languages are English or any Indian Language. One can use any google supported language family.
+In our examples, Source Language is German and Destination Languages are English or any Indian Language. One can use any google supported language family.
 
 Recent studies (Figure 1) show that german has been trending language now for learning amongst foreigners. Having limited resources for learning, Bhasha aims to help these students. 
 
@@ -33,7 +33,7 @@ Figure 1 Foreigners learning German source : Deutsch als Fremdsprache weltweit 2
 Bhasha offers following features
 
 * support for custom words list 
-* web game interface for learning target to source languages and vice versa 
+* web game interface for learning Source to Destination languages and vice versa 
 * audio support (native speaker) 
 * open source development
 

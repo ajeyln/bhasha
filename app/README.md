@@ -19,8 +19,8 @@ There are following 5 items, those needs to be considered
 * install Python and related modules : pip install  <b> requirements.txt </b>
 * provide input files : here user creates list of words (for exercises) and dumps the file in <b>"input"</b> folder
 * prepare translated words for input words : using GOOGLE googletrans package, translated words are prepared in selected source languages
-* prepare MCQ Quiz web pages : here Multiple Choice questions contain question word in Target Language and options in Source Languages. Also in order to improve memorization, MCQ web pages are also prepared with Question word in source language and options in Target Language. There is complete randomization on options
-* prepare audio files : using GOOGLE gTTS (google text to speech) for any Target Language word, we can create spoken form of the word from native speaker. This helps our learners to listen carefully the words in native form
+* prepare MCQ Quiz web pages : here Multiple Choice questions contain question word in Source Language and options in Destination Languages. Also in order to improve memorization, MCQ web pages are also prepared with Question word in Destination language and options in Source Language. There is complete randomization on options.
+* prepare audio files : using GOOGLE gTTS (google text to speech) for any  Language word, we can create spoken form of the word from native speaker. This helps our learners to listen carefully the words in native form
 
 ## <a name="modules"></a> Modules
 
@@ -48,7 +48,7 @@ Following scripts are prepared and are to be run alphabetically (please check pr
 
 ### <a name="ipfile"></a> Input File<br />
 
-First prepare a list of difficult words that you want to learn in Target language. Store these words in a file with distinct name and place it inside the folder <b>input</b>.
+First prepare a list of difficult words that you want to learn in Source language. Store these words in a file with distinct name and place it inside the folder <b>input</b>.
 
 Please ensure the words are correctly spelled and with no syntax errors. These words get later translated via googletrans package
 
@@ -56,7 +56,7 @@ Please ensure the words are correctly spelled and with no syntax errors. These w
 
 ### <a name="trans"></a> Translate <br />
 
-If you want to change target language / source language, please consider setting them in script <i><b>app\a_prepare_translation.py</i></b>. Only [GOOGLE supported languages](https://cloud.google.com/translate/docs/languages) are configurable.
+If you want to change Source language / Destination language, please consider setting them in script <i><b>app\a_prepare_translation.py</i></b>. Only [GOOGLE supported languages](https://cloud.google.com/translate/docs/languages) are configurable.
 
 ![F1](../images/1_select_language.png)
 
@@ -72,9 +72,40 @@ The resulting translations from GOOGLE will be placed under newly created <b>pro
 ![F3](../images/3_prepare_translation.png)
 ![F4](../images/4_translated.png)
 
-<b>Please note </b> one can select multiple source languages, but only 1 target language.
+<b>Please note </b> one can select multiple Destination languages, but only 1 Source language.
 
 ## <a name="mcq"></a> MCQ - QUIZ
+
+Multiple Choice Question is a Quiz web application, containing a question word and multiple choices. 
+
+We have both kind of question types i.e. Question is in Destination Language / Options in Source Language and vice versa. This way, learners can ensure good memorization of words to improve vocabulary.
+
+The oprtions here are completely randomized.
+
+Learner must however define how many such question set she needs, which is by default set to 2. 
+![F5](../images/5_practice_set_numbers.png)
+
+Then execute second script
+
+```shell
+$ python a_prepare_questions.py
+```
+![F6](../images/5_prep_mcq.png)
+
+ The question sets will be created from contents of <b>project</b> folder and resulting web pages are stored into <b>PRACTICE_OUTPUT_FOLDER</b>. Please check following illustrations
+
+![F7](../images/6_practice_folders.png)
+![F8](../images/7_practice_set_files.png)
+
+From Question Set folders, look for html pages with input file names, and reversed (destination/source language). 
+
+One can activate quiz game, by opening these files in favorite browser.
+
+![F9](../images/8_mcq_p.png)
+![F10](../images/9_mcq_r_p.png)
+
+After each game, a score will be displayed for developing confidence with memorization of words
+![F11](../images/10_mcq_result.png)
 
 ## <a name="audio"></a> Spoken words audio
 
