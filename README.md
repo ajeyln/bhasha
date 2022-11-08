@@ -60,7 +60,7 @@ And for advanced details on execution, please refer to [README](app/README.md)
 2| [GOOGLE supported language ](https://cloud.google.com/translate/docs/languages)|  |
 
 
-## <a name="contribution"></a> Conrtbutions
+## <a name="contribution"></a> Contributions
 1 Concept, Design & Development, and Presentation [Vasudeva Nayak Kukkundoor](https://www.linkedin.com/in/vasudeva-nayak-kukkundoor-04183816/) 
 
 2 Devlopment, and Testing [Ajeya Nayak](https://www.linkedin.com/in/ajeya-nayak-34801766/)

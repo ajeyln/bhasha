@@ -134,7 +134,7 @@ All audio files will be created under folder  <b>PRACTICE_OUTPUT_FOLDER</b> with
 * reading game (fill in the blanks)
 
 
-## <a name="contribution"></a> Conrtbutions
+## <a name="contribution"></a> Contributions
 1 Concept, Design & Development, and Presentation [Vasudeva Nayak Kukkundoor](https://www.linkedin.com/in/vasudeva-nayak-kukkundoor-04183816/) 
 
 2 Devlopment, and Testing [Ajeya Nayak](https://www.linkedin.com/in/ajeya-nayak-34801766/)
