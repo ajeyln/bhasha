@@ -16,11 +16,11 @@
 
 There are following 5 items, those needs to be considered
 
-* install Python and related modules : pip install  <b> requirements.txt </b>
-* provide input files : here user creates list of words (for exercises) and dumps the file in <b>"input"</b> folder
-* prepare translated words for input words : using GOOGLE googletrans package, translated words are prepared in selected source languages
-* prepare MCQ Quiz web pages : here Multiple Choice questions contain question word in Source Language and options in Destination Languages. Also in order to improve memorization, MCQ web pages are also prepared with Question word in Destination language and options in Source Language. There is complete randomization on options.
-* prepare audio files : using GOOGLE gTTS (google text to speech) for any  Language word, we can create spoken form of the word from native speaker. This helps our learners to listen carefully the words in native form
+* <b> install Python and related modules </b> : pip install  <b> requirements.txt </b>
+* provide input files : here user creates list of words (for exercises) and dumps the file in <b>input</b> folder
+* <b> prepare translated words for input words </b>: using GOOGLE googletrans package, translated words are prepared in selected source languages
+* <b> prepare MCQ Quiz web pages </b>: here Multiple Choice questions contain question word in Source Language and options in Destination Languages. Also in order to improve memorization, MCQ web pages are also prepared with Question word in Destination language and options in Source Language. There is complete randomization on options.
+* <b> prepare audio files </b>: using GOOGLE gTTS (google text to speech) for any  Language word, we can create spoken form of the word from native speaker. This helps our learners to listen carefully the words in native form
 
 ## <a name="modules"></a> Modules
 
@@ -108,6 +108,22 @@ After each game, a score will be displayed for developing confidence with memori
 ![F11](../images/10_mcq_result.png)
 
 ## <a name="audio"></a> Spoken words audio
+
+It is also essential for learners to hear and understand those words in native spoken form.
+
+gTTS module helps preparation of these audio files, preparing users for listening practices.
+
+We execute third script 
+
+```shell
+$ python a_prepare_audio.py
+```
+![F12](../images/11_prepare_audio.png)
+
+All audio files will be created under folder  <b>PRACTICE_OUTPUT_FOLDER</b> with relevant file structure. Then learners can use their favorite media player to listen to these words and continue memorizing practice.
+
+![F13](../images/12_location_audio.png)
+![F14](../images/13_play_audio.png)
 
 ## <a name="todo"></a> ToDos
 * custom selection of languages
