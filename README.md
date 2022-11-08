@@ -21,6 +21,12 @@ Target Language is a language that user wants to learn. And Source Language(s) a
 
 In our examples, Target Language is German and Source Languages are English or any Indian Language. One can use any google supported language family.
 
+Recent studies (Figure 1) show that german has been trending language now for learning amongst foreigners. Having limited resources for learning, Bhasha aims to help these students. 
+
+
+![Figure 1 Foreigners learning German source : ](./images/german_stats.png)<br />
+
+
 ## <a name="features"></a> Features
 
 Bhasha offers following features
@@ -46,6 +52,16 @@ gTTS               2.2.4
 And for advanced details on execution, please refer to [README](app/README.md)
 
 
+## <a name="useful"></a> Useful Links
+| **Sl. No.** | **Link** | **Remarks** |
+----------|--------------|--------------
+1| [GOOGLE Translate package](https://pypi.org/project/googletrans/)| translation package for py |
+2| [GOOGLE supported language ](https://cloud.google.com/translate/docs/languages)|  |
 
-  
 
+## <a name="contribution"></a> Conrtbutions
+1 Concept, Design & Development, and Presentation [Vasudeva Nayak Kukkundoor](https://www.linkedin.com/in/vasudeva-nayak-kukkundoor-04183816/) 
+
+2 Devlopment, and Testing [Ajeya Nayak](https://www.linkedin.com/in/ajeya-nayak-34801766/)
+
+3 Frontend design and code [CodingNepal](https://www.codingnepalweb.com/)
