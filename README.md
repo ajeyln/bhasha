@@ -35,6 +35,7 @@ Bhasha offers following features
 * support for custom words list 
 * web game interface for learning Source to Destination languages and vice versa 
 * audio support (native speaker) 
+* validates your pronounciation of words
 * open source development
 
 ## <a name="exec"></a> Execution
@@ -49,6 +50,8 @@ and install following Python modules :
 ```
 googletrans        4.0.0rc1
 gTTS               2.2.4
+PyAudio            0.2.12
+SpeechRecognition  3.8.1
 ```
 And for advanced details on execution, please refer to [README](app/README.md)
 
@@ -58,11 +61,12 @@ And for advanced details on execution, please refer to [README](app/README.md)
 ----------|--------------|--------------
 1| [GOOGLE Translate package](https://pypi.org/project/googletrans/)| translation package for py |
 2| [GOOGLE supported language ](https://cloud.google.com/translate/docs/languages)|  |
+3| [GOOGLE Speech Recognition ](https://pypi.org/project/SpeechRecognition/)|  |
 
 
 ## <a name="contribution"></a> Contributions
 1 Concept, Design & Development, and Presentation [Vasudeva Nayak Kukkundoor](https://www.linkedin.com/in/vasudeva-nayak-kukkundoor-04183816/) 
 
-2 Devlopment, and Testing [Ajeya Nayak](https://www.linkedin.com/in/ajeya-nayak-34801766/)
+2 Development, and Testing [Ajeya Nayak](https://www.linkedin.com/in/ajeya-nayak-34801766/)
 
 3 Frontend design and code [CodingNepal](https://www.codingnepalweb.com/)

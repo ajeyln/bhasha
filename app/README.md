@@ -9,18 +9,20 @@
     + [Translate](#trans)
 * [MCQ - Quiz](#mcq)
 * [Spoken words](#audio)
+* [Pronunciation check](#pronounce)
 * [ToDos](#todo)
 * [Contributions](#contributions)
 
 ## <a name="init"></a> Init
 
-There are following 5 items, those needs to be considered
+There are following 6 items, those needs to be considered
 
 * <b> install Python and related modules </b> : pip install  <b> requirements.txt </b>
 * provide input files : here user creates list of words (for exercises) and dumps the file in <b>input</b> folder
 * <b> prepare translated words for input words </b>: using GOOGLE googletrans package, translated words are prepared in selected source languages
 * <b> prepare MCQ Quiz web pages </b>: here Multiple Choice questions contain question word in Source Language and options in Destination Languages. Also in order to improve memorization, MCQ web pages are also prepared with Question word in Destination language and options in Source Language. There is complete randomization on options.
 * <b> prepare audio files </b>: using GOOGLE gTTS (google text to speech) for any  Language word, we can create spoken form of the word from native speaker. This helps our learners to listen carefully the words in native form
+* <b> validate proper pronunciation of words </b>: using Speech Recognition module, learner's pronuncation of words can be validated against the given words. The application currently uses speech captured by microphone only.
 
 ## <a name="modules"></a> Modules
 
@@ -36,6 +38,8 @@ and install following Python modules :
 $ pip install -r requirments.txt
 googletrans        4.0.0rc1
 gTTS               2.2.4
+PyAudio            0.2.12
+SpeechRecognition  3.8.1
 ```
 Following scripts are prepared and are to be run alphabetically (please check prefixes)
 
@@ -88,7 +92,7 @@ Learner must however define how many such question set she needs, which is by de
 Then execute second script
 
 ```shell
-$ python a_prepare_questions.py
+$ python b_prepare_questions.py
 ```
 ![F6](../images/5_prep_mcq.png)
 
@@ -116,7 +120,7 @@ gTTS module helps preparation of these audio files, preparing users for listenin
 We execute third script 
 
 ```shell
-$ python a_prepare_audio.py
+$ python c_prepare_audio.py
 ```
 ![F12](../images/11_prepare_audio.png)
 
@@ -124,6 +128,16 @@ All audio files will be created under folder  <b>PRACTICE_OUTPUT_FOLDER</b> with
 
 ![F13](../images/12_location_audio.png)
 ![F14](../images/13_play_audio.png)
+
+## <a name="pronounce"></a> Pronunciation check
+
+In this section, Bhasha prompts learner to pronounce a random word from the list via microphone. The captured word will be compared against the given word using speech recognition. The scoring will be done accordingly.
+
+```shell
+$ python d_prepare_speech.py
+```
+![F15](../images/14_pronunciation_check.png)
+
 
 ## <a name="todo"></a> ToDos
 * custom selection of languages

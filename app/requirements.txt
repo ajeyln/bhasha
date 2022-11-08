@@ -1,2 +1,4 @@
 googletrans 
 gTTS  
+PyAudio
+SpeechRecognition
