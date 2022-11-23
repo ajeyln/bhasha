@@ -24,6 +24,8 @@ There are following 6 items, those needs to be considered
 * <b> prepare audio files </b>: using GOOGLE gTTS (google text to speech) for any  Language word, we can create spoken form of the word from native speaker. This helps our learners to listen carefully the words in native form
 * <b> validate proper pronunciation of words </b>: using Speech Recognition module, learner's pronuncation of words can be validated against the given words. The application currently uses speech captured by microphone only.
 
+Also you can check YouTube [old execution walkthrough](https://www.youtube.com/watch?v=7gZ_o_pPH_4&t=4s) for the same 
+
 ## <a name="modules"></a> Modules
 
 Bhasha is series of python scripts employed for users to help with language learning. 
