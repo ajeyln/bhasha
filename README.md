@@ -55,6 +55,8 @@ SpeechRecognition  3.8.1
 ```
 And for advanced details on execution, please refer to [README](app/README.md)
 
+Also you can check YouTube [old execution walkthrough](https://www.youtube.com/watch?v=7gZ_o_pPH_4&t=4s) for the same 
+
 
 ## <a name="useful"></a> Useful Links
 | **Sl. No.** | **Link** | **Remarks** |
