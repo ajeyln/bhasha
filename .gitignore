@@ -1,3 +1,6 @@
 *.pyc
 *__pycache__*
 *project
+*.html*
+*html
+*PRACTICE_OUTPUT_FOLDER*

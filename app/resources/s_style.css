@@ -1,0 +1,62 @@
+<style>
+
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+<meta name="google" content="translate">
+<meta http-equiv="Content-Language" content="de">
+
+img {
+  width: 100%;
+}
+
+.input.short_b2 {
+    width: 3em;
+    text-align: center;
+    background-color: #FFF;
+    color: #000000;
+    border-top: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid black;
+}
+
+.error {
+    color:red;
+    border:3px solid red;
+}
+
+.correct {
+    color:green;
+    border:3px solid green;
+}
+
+
+.float-container {
+    /* border: 3px solid #fff; */
+    /* padding: 20px; */
+    display: flex;
+    font-family: Georgia, serif;
+}
+.float-child {
+    /* width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red; */
+  background: powderblue;
+    flex: 1;
+    border: 2px solid powderblue;
+} 
+
+.float-child2 {
+    /* width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red; */
+  background: powderblue;
+    flex: 1;
+    border: 2px solid powderblue;
+} 
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+</style>
