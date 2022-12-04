@@ -10,6 +10,7 @@
 * [MCQ - Quiz](#mcq)
 * [Spoken words](#audio)
 * [Pronunciation check](#pronounce)
+* [Reading - Fill in the blanks](#reading1)
 * [ToDos](#todo)
 * [Contributions](#contributions)
 
@@ -140,6 +141,17 @@ $ python d_prepare_speech.py
 ```
 ![F15](../images/14_pronunciation_check.png)
 
+## <a name="reading1"></a> Reading - Fill in the blanks
+
+For reading section, learners need passages, where missing fields need to be updated. Learner must read entire passage, understand and select right missing piece of information. The scoring will be done accordingly as well.
+
+The source passage must have full content. 
+```shell
+$ python e_prepare_fib_1.py  <location_of_source_file>
+```
+
+![F16](../images/15_reading_fib1.png)
+![F17](../images/16_reading_fib2.png)
 
 ## <a name="todo"></a> ToDos
 * custom selection of languages

@@ -36,8 +36,8 @@ def prepare_question_source(para, index):
 
 
 def prepare_question_paper(source, options, filename):
-  for opt in options :
-    print(opt)
+#  for opt in options :
+#    print(opt)
 
   with open(os.path.join("resources", "s_style.css")) as f:
     htmlStyle = f.read()
@@ -49,7 +49,7 @@ def prepare_question_paper(source, options, filename):
     os.makedirs(OUTPUT_FOLDER_NAME)
   question_file = "FillInTheBlanks-Type-I-Questions.html"
   
-  print(f"q:- {question_file}")
+  print(f"Output file:- {os.path.join(OUTPUT_FOLDER_NAME, question_file)}")
   #question_file = "test.html"
   with open(os.path.join(OUTPUT_FOLDER_NAME, question_file), 'w', encoding="utf8") as writer:
     indexOrder=[]
