@@ -1,3 +1,7 @@
+Bhasha Executable MD5 - bhasha-gui.exe: 478028c81c53ae5abcf58e747cbf24d6
+Bhasha Installer MD5 - bhasha-installer-2.0.exe: bb63b996d9aeb34a1fe4571fa209f889
+
+
 1. First install pyinstaller module.
 There is issue to install pyinstaller from Package manager and it may not work on windows 10 directly.
 Link : 
@@ -12,7 +16,21 @@ $ pip install .
 https://pyinstaller.org/en/stable/operating-mode.html
 $ pyinstaller --onefile --windowed --icon=resources\images\bhasha-icon.ico bhasha-gui.py
 
-3. now create installation bundle
+3. find MD5 of Bhasha executable 
+$  certutil -hashfile bhasha-gui.exe md5
+
+4. now create installation bundle
+copy only required folders
+1. resources : all but no module folder 
+2. project 
+3. about.json
+4. literarians.json
+5. <EXECUTABLE FILE FROM PYINSTALLER>
+6. LICENSE.md
+create zip of the contents 
+
+5. install NSIS: Nullsoft Scriptable Install System (nsis)
+https://nsis.sourceforge.io/Simple_tutorials
 
 
 
