@@ -1,0 +1,19 @@
+1. First install pyinstaller module.
+There is issue to install pyinstaller from Package manager and it may not work on windows 10 directly.
+Link : 
+https://pyinstaller.org/en/stable/installation.html
+
+$ git clone https://github.com/pyinstaller/pyinstaller
+$ cd pyinstaller
+$ pip install .
+(update Path variable with paths of pyinstaller.exe, or any *.exe. The path will be given when you install pyinstaller.
+
+2. create executable of python program
+https://pyinstaller.org/en/stable/operating-mode.html
+$ pyinstaller --onefile --windowed --icon=resources\images\bhasha-icon.ico bhasha-gui.py
+
+3. now create installation bundle
+
+
+
+

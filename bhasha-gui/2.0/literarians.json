@@ -1,0 +1,69 @@
+[
+    {
+        "literarian" : "Kahlil Gibran",
+        "link": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
+        "image": "resources\\\\images\\\\lits\\\\KG.jpg"
+    },
+    {
+        "literarian" : "Rumi",
+        "link": "https://en.wikipedia.org/wiki/Rumi",
+        "image": "resources\\\\images\\\\lits\\\\RMI.jpg"
+    },
+    {
+        "literarian" : "Amir Khusrau",
+        "link": "https://en.wikipedia.org/wiki/Amir_Khusrau",
+        "image": "resources\\\\images\\\\lits\\\\AK.png"
+    },
+    {
+        "literarian" : "Thiruvalluvar",
+        "link": "https://en.wikipedia.org/wiki/Thiruvalluvar",
+        "image": "resources\\\\images\\\\lits\\\\TR.jpg"
+    },
+    {
+        "literarian" : "Alexandre Dumas",
+        "link": "https://en.wikipedia.org/wiki/Alexandre_Dumas",
+        "image": "resources\\\\images\\\\lits\\\\AD.jpg"
+    },
+    {
+        "literarian" : "John Keats",
+        "link": "https://en.wikipedia.org/wiki/John_Keats",
+        "image": "resources\\\\images\\\\lits\\\\JK.jpg"
+    },
+    {
+        "literarian" : "Johann Wolfgang von Goethe",
+        "link": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+        "image": "resources\\\\images\\\\lits\\\\JG.jpg"
+    },
+    {
+        "literarian" : "Premchand",
+        "link": "https://en.wikipedia.org/wiki/Premchand",
+        "image": "resources\\\\images\\\\lits\\\\PC.png"
+    },
+
+    {
+        "literarian" : "Manjeshwar Govinda Pai ",
+        "link": "https://en.wikipedia.org/wiki/M._Govinda_Pai",
+        "image": "resources\\\\images\\\\lits\\\\MGP.png"
+    },
+    {
+        "literarian" : "Rabindranath Tagore",
+        "link": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
+        "image": "resources\\\\images\\\\lits\\\\RT.jpg"
+    },
+    {
+        "literarian" : "William Shakespeare",
+        "link": "https://en.wikipedia.org/wiki/William_Shakespeare",
+        "image": "resources\\\\images\\\\lits\\\\WS.jpg"
+    },
+
+    {
+        "literarian" : "Pāṇini",
+        "link": "https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini",
+        "image": "resources\\\\images\\\\lits\\\\PN.png"
+    },
+    {
+        "literarian" : "Kuvempu",
+        "link": "https://en.wikipedia.org/wiki/Kuvempu",
+        "image": "resources\\\\images\\\\lits\\\\KP.png"
+    }
+]

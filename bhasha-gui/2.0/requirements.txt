@@ -1,0 +1,8 @@
+googletrans==4.0.0rc1
+gTTS  
+PyAudio
+pydub==0.25.1
+SpeechRecognition
+tk
+playsound
+pillow
