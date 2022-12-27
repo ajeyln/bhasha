@@ -57,9 +57,9 @@ r3_answer_key = []
 
 configItems = {}
 aboutItems = {}
-configFile="bhasha_config.json"
-aboutFile ="about.json"
-LitFile="literarians.json"
+configFile=os.path.join("config", "bhasha_config.json")
+aboutFile =os.path.join("config", "about.json")
+LitFile=os.path.join("config","literarians.json")
 
 AVOID_CHRACTERS_FILEPATH ="äöüß"
 LATEST_UPDATES_URL = "https://github.com/ajeyln/bhasha/releases/download/bhasha-2.0/latest_updates.zip"
