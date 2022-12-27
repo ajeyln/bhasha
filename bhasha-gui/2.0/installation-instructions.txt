@@ -21,13 +21,55 @@ $  certutil -hashfile bhasha-gui.exe md5
 
 4. now create installation bundle
 copy only required folders
-1. resources : all but no module folder 
-2. project 
-3. about.json
-4. literarians.json
-5. <EXECUTABLE FILE FROM PYINSTALLER>
-6. LICENSE.md
-create zip of the contents 
+|   bhasha-gui.exe
+|   LICENSE.md
+|   tree.txt
+|   
++---config
+|       about.json
+|       literarians.json
+|       
++---input_words
++---output
++---project
++---reading_samples
+|       german.txt
+|       kannada-text.txt
+|       reading-classifieds.json
+|       
+\---resources
+    +---html
+    |   |   source.html
+    |   |   style.css
+    |   |   s_script.js
+    |   |   s_style.css
+    |   |   
+    |   \---js
+    |           script.js
+    |           
+    \---images
+        |   a_logo.png
+        |   bhasha-icon.ico
+        |   bhasha-icon.png
+        |   logo.png
+        |   right.png
+        |   wrong.png
+        |   
+        \---lits
+                AD.jpg
+                AK.png
+                JG.jpg
+                JK.jpg
+                KG.jpg
+                KP.png
+                MGP.png
+                PC.png
+                PN.png
+                RMI.jpg
+                RT.jpg
+                TR.jpg
+                ws.jpg
+
 
 5. install NSIS: Nullsoft Scriptable Install System (nsis)
 https://nsis.sourceforge.io/Simple_tutorials
